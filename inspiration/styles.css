@@ -5,7 +5,7 @@ body {
 
 header {
   color: white;
-  font-size: 23px;
+  font-size: 20px;
   padding: 10px;
   text-align: center;
   background-color: rgb(255, 109, 109);
@@ -27,7 +27,7 @@ header {
 .main-nav li {
   display: inline;
   font-size: 25px;
-  padding: 200px;
+  padding: 50px;
 }
 
 .tile {
@@ -36,22 +36,35 @@ header {
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
 }
 
-article {
+.bio {
   font-size: 20px;
-  float: right;
+  width: 100%;
+  float: left;
+  align-self: first baseline;
+}
+
+.image img {
+  padding: 6px;
+  margin: 35px;
+  float: left;
+  border: 1px solid black;
+  max-width: 100%; 
+  max-height: 100%;
 }
 
 article .bio-title {
   text-align: left;
+  font-family: "Bungee Outline", sans-serif;
+  font-size: 65px;
 }
 
 article p {
-  margin-inline: 40px;
+  margin-inline: 100px;
   text-align: left;
 }
 
@@ -59,14 +72,14 @@ article h3 {
   margin-inline: 70px;
 }
 
+article hr {
+  border-top: 5px dotted red;
+  width: 80%;
+}
+
 .bio li {
   display: inline;
   float: left;
-}
-
-img {
-  padding: 50px;
-  max-width: 80%; 
 }
 
 a[href] {
