@@ -6,38 +6,44 @@ body {
 header {
   color: white;
   font-size: 20px;
-  padding: 10px;
+  padding: 5px;
+  margin: 5px;
   text-align: center;
   background-color: rgb(255, 109, 109);
+}
+
+header .inner-header {
+  display: block;
+  padding: 5px;
   border: 1px solid white;
-  margin: 5px;
 }
 
 .banner {
   text-align: center;
-  padding-top: 15px;
 }
 
-.main-nav {
+nav {
   text-align: center;
-  width: 100%;
   border: 1px solid black;
+  padding: 15px;
 }
 
-.main-nav li {
-  display: inline;
-  font-size: 25px;
-  padding: 50px;
+nav a[href] {
+  list-style-type: none;
+  color: red;
 }
 
 .tile {
   color: rgb(255, 82, 82);
   text-decoration: none;
+  display: inline;
+  font-size: 25px;
+  padding: 50px;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: .55fr 2fr;
 
 }
 
@@ -45,7 +51,7 @@ header {
   font-size: 20px;
   width: 100%;
   float: left;
-  align-self: first baseline;
+  align-self: flex-start;
 }
 
 .image img {
@@ -60,6 +66,7 @@ header {
 article .bio-title {
   text-align: left;
   font-family: "Bungee Outline", sans-serif;
+  margin: 0;
   font-size: 65px;
 }
 
@@ -68,13 +75,21 @@ article p {
   text-align: left;
 }
 
+article .lang-select {
+  text-align: right;
+  margin-top: 0;
+  text-decoration: none;
+}
+
 article h3 {
   margin-inline: 70px;
 }
 
 article hr {
   border-top: 5px dotted red;
-  width: 80%;
+  width: 85%;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .bio li {
@@ -82,9 +97,5 @@ article hr {
   float: left;
 }
 
-a[href] {
-  list-style-type: none;
-  color: red;
-}
 
 

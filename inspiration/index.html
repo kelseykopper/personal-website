@@ -1,5 +1,5 @@
 <! DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css">
 
@@ -13,45 +13,50 @@
 
     <title>Kelsey Kopper's Portfolio</title>
   </head>
-  <body>
 
-    <nav class="main-nav">
-      <ul class="nav-items">
-        <li><a class="tile" href="index.html">home</a></li>
-        <li><a class="tile" href="projects.html">projects</a></li>
-        <li><a class="tile" href="contact.html">contact</a></li>
-      </ul>
+  <body>
+    <!-- navigation banner, should be constant across all pages -->
+    <nav>
+        <a class="tile" href="index.html">home</a> 
+        <a class="tile" href="projects.html">projects</a> 
+        <a class="tile" href="contact.html">contact</a> 
     </nav>
 
     <section class="banner">
-      <div class="welcome">
         <h2>Hi, I'm</h2>
-      </div>
     </section>
 
     <header>
-      <h1>Kelsey Kopper</h1>
+      <div class="inner-header">
+        <h1>Kelsey Kopper</h1>
+      </div>
     </header>
 
     <main>
       <div class="container">
         <div class="image"><img src="/img/real_headshot.jpeg"></div>
-        <div class="bio">
-          <article class="en">
+          <article class="bio">
             <h2 class="bio-title">ABOUT ME</h2>
             <hr>
+            <p class="lang-select">
+              <a href="index.html" class="lang-select">English</a>
+               | 
+              <a href="index.html" class="lang-select">Русский</a>
+            </p>
             <h3>> WHO I AM</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Ducimus reiciendis perferendis quidem numquam quibusdam quia suscipit 
-              molestias vitae quam sequi dolorem laborum tempora dicta placeat sed, aut cumque in quis.</p>
+            <p>I'm currently a student at the University of Minnesota in my second year studying computer science
+              with a minor in the Russian language.
+            </p>
             <h3>> PROFESSIONAL SKILLS</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum error molestias, laborum itaque, doloribus dicta magni explicabo fuga dolorem labore, incidunt hic voluptatem quod. Harum optio nihil vero dolorum nisi?</p>
+            <p>Throughout my time at UMN, I've become proficient in C, C++, Java and Python programming languages. On my own, I like to build projects 
+              using various languages like Godot, Kv and Scratch. (do not keep this) Moreover, I am proficient in Russian.
+              <br><br>
+              When I put my mind to something, I get absorbed in it. I'm passionate about learning and I love working in teams with like-minded people.
+            </p>
             <h3>> HOBBIES & INTERESTS</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus quis doloribus dolor aspernatur explicabo. Amet velit dolor, officiis vitae id accusantium recusandae at illo ex ea, tenetur sit exercitationem.</p>
+            <p>In my free time, I like to study languages (see above), run, play bass guitar, crochet and cook.</p>
           </article>
-        </div>
       </div>
-      </ul>
     </main>
 
   </body>
