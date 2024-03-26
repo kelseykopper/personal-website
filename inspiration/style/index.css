@@ -1,0 +1,74 @@
+header {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  background-color: rgb(255, 109, 109);
+}
+
+header .inner-header {
+  display: block;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.banner {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: .55fr 2fr;
+
+}
+
+.bio {
+  font-size: 20px;
+  width: 100%;
+  float: left;
+  align-self: flex-start;
+}
+
+.image img {
+  padding: 6px;
+  margin: 35px;
+  float: left;
+  border: 1px solid black;
+  max-width: 100%; 
+  max-height: 100%;
+}
+
+article .bio-title {
+  text-align: left;
+  font-family: "Bungee Outline", sans-serif;
+  margin: 0;
+  font-size: 65px;
+}
+
+article p {
+  margin-inline: 100px;
+  text-align: left;
+}
+
+article .lang-select {
+  text-align: right;
+  margin-top: 0;
+  text-decoration: none;
+}
+
+article h3 {
+  margin-inline: 70px;
+}
+
+article hr {
+  border-top: 5px dotted red;
+  width: 85%;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.bio li {
+  display: inline;
+  float: left;
+}

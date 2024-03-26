@@ -1,0 +1,34 @@
+.projects h1 {
+  font-family: "Bungee Outline", sans-serif;
+  color: rgb(255, 109, 109);
+  font-size: 50px;
+  text-align: center;
+  border: 2px solid rgb(255, 109, 109);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.projects .proj-tile {
+  display: block;
+  margin-inline: 375px;
+  margin-bottom: 70px;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  /* add shadow on hover */
+  /* box-shadow: 5px 5px 10px 2px black; */
+}
+
+.projects .proj-tile:hover {
+  box-shadow: 5px 5px 10px 2px rgb(167, 178, 176);
+}
+
+.proj-tile h3 {
+  margin: 20px;
+}
+
+.proj-tile p {
+  margin-inline: 40px;
+}

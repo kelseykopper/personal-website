@@ -1,0 +1,21 @@
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+}
+
+.contact-container h1 {
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.contact-left {
+  background-color: rgb(255, 109, 109);
+  color: white;
+  padding: 15px;
+  display: grid;
+}
+
+.contact-right {
+  padding: 15px;
+}

@@ -1,0 +1,51 @@
+header {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  background-color: rgb(255, 109, 109);
+}
+
+header .inner-header {
+  display: block;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.banner {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: .55fr 2fr;
+
+}
+
+body {
+  background-color: rgb(249, 255, 254);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav {
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+nav a[href] {
+  color: red;
+}
+
+nav a[href]:hover {
+  color: rgb(121, 0, 0);
+}
+
+.tile {
+  color: rgb(255, 82, 82);
+  text-decoration: none;
+  display: inline;
+  font-size: 25px;
+  padding: 50px;
+}
